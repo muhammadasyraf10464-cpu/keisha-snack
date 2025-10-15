@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keisha Snack | Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+        <h1 class="logo">Keisha Snack</h1> 
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Pesan</a></li>
+          <li><button class="logout-btn" onclick="logout()">Logout</button></li>
+         </ul>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero">
+       <div class="hero-overlay">
+        <div class="hero-content">
+            <h1>Temukan Snack Snack yang anda butuhkan</h1>
+            <p>Dapatkan paket snack murah dan enak  <span>Keisha Snack</span></p>
+            <a href="#menu" class="btn">Jelajahi Menu</a>
+        </div>
+       </div>
+    </section>
+
+    <section id="about" class="section about">
+    <div class="container about-wrapper">
+        <div class="about-img">
+            <img src="paketsol.jpg" alt="Tentang Paket Snack" class="hero-img">
+        </div>
+        <div class="about-text">
+            <h2>Tentang <span>Keisha Snack</span></h2>
+            <p>
+                Di <strong>Keisha Snack</strong>,adalah bisnis usaha snack rumahan
+                yang menyediakan berbagai snack jajanan pasar untuk acara pribadi 
+                atau hajatan,dan acar lain 
+            </p>
+            <p>
+                Anda dapat membuat request isi paket sesuai dengan keinginan anda,dan
+                anda dapat juga membuat request jumlah paket yang akan anda beli 
+            </p>
+            <a href="#menu" class="btn about-btn">Jelajahi Menu kami</a>
+        </div>
+    </div>
+    </section>
+    
+    <section id="menu" class="section menu">
+        <div class="container">
+            <h2>Daftar Menu Snack</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                  <img src="paketmur.JPG" alt="Paket1" class="hero-img">
+                  <div class="menu-info">
+                    <h3>Paket Murmer</h3>
+                   <p>Paket Murah Meriah yang sudah berisi 4 macam snack rumahan.</p>
+                   <p class="price"></p>Rp 7000</p>
+                   <button class="order-btn">Pesan Sekarang</button>
+                  </div>
+                </div>
+
+                <div class="menu-card">
+                    <img src="paketrah.JPG" alt="Paket2" class="hero-img">
+                    <div class="menu-info">
+                     <h3>Paket Murah</h3>
+               <p>Paket Murah yang sesuai untuk pemesanan dalam jumlah banyak untuk acar tertentu.</p>
+               <p class="price"></p>Rp 8000</p>
+               <button class="order-btn">Pesan Sekarang</button>
+             </div>
+            </div>
+
+                <div class="menu-card">
+                    <img src="paketkap.JPG" alt="Paket3" class="hero-img">
+                    <div class="menu-info">
+                     <h3>Paket lengkap</h3>
+                     <p>Paket lengkap dengan isian risol dan kue-kue yang beragam.</p>
+                     <p class="price"></p>Rp 10,000</p>
+                     <button class="order-btn">Pesan Sekarang</button>
+                  </div> 
+               </div>
+            </div>
+        </div>  
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2>Hubungi kami</h2>
+            <p>Jika ada yang ingin ditanyakan, hubungi kami melalui formulir di bawah ini.</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Nama" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Pesan Anda" required></textarea>
+                <button type="submit" class="btn1">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>2025 Keisha Snack. Present by Aminn</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
